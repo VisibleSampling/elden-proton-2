@@ -6,7 +6,7 @@ This fork is a rewrite of the original script to be more user-friendly but did n
 
 A large portion of the original functionality no longer exists. This script will no longer download, update, or install mods for you. It will only attempt to launch the mods I have installed and configured how I want them. If you want to use this script, you will need to modify it to suit your needs.
 
-## Current features:
+### Current features:
 1. Provides 3 options for launching Elden Ring:
     - Vanilla
     - Seamless Coop
@@ -15,7 +15,7 @@ A large portion of the original functionality no longer exists. This script will
 3. Switches between saves for Vanilla and Modded options.
 4. Automatically backs up all saves before launching the game, keeping the last 10 backups.
 
-## If you want to replicate this exactly, you will need to:
+### If you want to replicate this exactly, you will need to:
 1. Install all mods into the game directory:
     - Seamless Coop
     - er-patcher
