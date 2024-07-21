@@ -55,7 +55,7 @@ for tool in "${!required_tools[@]}"; do
 done
 
 #Menu options
-WITHOUT_MODS="Play without mods"
+WITHOUT_MODS="Vanilla"
 SEAMLESS_COOP="Seamless Co-op"
 MOD_ENGINE="Mod Engine"
 
@@ -93,7 +93,7 @@ if [[ -d "${STEAM_RUNTIME:-}" ]]; then
 fi
 
 # Zenity menu
-CHOICE=$($ZENITY --list --title="Elden Ring Mod Manager" --text="Select the mod you want to use" --column="Mod" "$WITHOUT_MODS" "$SEAMLESS_COOP" "$MOD_ENGINE"  --width=400 --height=300)
+CHOICE=$($ZENITY --list --title="Elden Ring Mod Manager" --text="Select the mod you want to use" --column="Mod" "$WITHOUT_MODS" "$SEAMLESS_COOP" "$MOD_ENGINE"  --width=400 --height=350)
 
 # Check if the user selected a mod
 if [ -n "$CHOICE" ]; then
