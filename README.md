@@ -23,9 +23,18 @@ A large portion of the original functionality no longer exists. This script will
 2. Install and configure ModEngine2 inside of `$HOME/Documents/Games/Elden Ring/ModEngine`.
 3. Ensure that there are 2 saves in the game directory, one for Vanilla and one for Modded. The script will automatically switch between the two when launching the game. The saves should be named `ER0000.sl2` and `ER0000.sl2.modded` respectively. This applies to both `.sl2` and `.sl2.bak` files.
 
+ToDo:
 
+I have been unable to get Seamless Coop to work along with ModEngine2 at the same time. I have yet to find a solution to this problem. If you have any ideas, please let me know.
 
+Add back missing features from the original script:
+- Downloading mods
+- Updating mods
+- Selecting mods to install
+- Configuring mods
 
+---
+# Original README.md
 ---
 
 Noob friendly Elden Ring mod loader for linux/proton/steam
